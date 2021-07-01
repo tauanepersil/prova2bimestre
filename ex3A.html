@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const empresas = [
+        {
+        nome: 'Samsung',
+        valorMercado: 50,
+        ceo: 'Kim Hyun Suk',
+        anoCriacao: '1938'
+        },
+        {
+        nome: 'Microsoft',
+        valorMercado: 415,
+        ceo: 'Satya Nadella',
+        anoCriacao: '1975'
+        },
+        {
+        nome: 'Intel',
+        valorMercado: 117,
+        ceo: 'Brian Krzanich',
+        anoCriacao: '1968'
+        },
+        {
+        nome: 'Facebook',
+        valorMercado: 383,
+        ceo: 'Mark Zuckerberg',
+        anoCriacao: '2004'
+        },
+        {
+        nome: 'Sportify',
+        valorMercado: 30,
+        ceo: 'Daniel Ek',
+        anoCriacao: '2006'
+        },
+        {
+        nome: 'Apple',
+        valorMercado: 845,
+        ceo: 'Tim Cook',
+        anoCriacao: '1976'
+        },
+        ]
+
+        const anoCriacao = empresas.filter(empresa => (empresa.anoCriacao > 2000));
+        console.log(anoCriacao);
+
+
+        
+    </script>
+</body>
+</html>
